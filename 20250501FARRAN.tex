@@ -1,4 +1,37 @@
-%Agrego estructura inicial para el trabajo con el autor Farran
+% referencias
+\addbibresource{./files/gbTeXbib-seminarioUBA.bib}
+
+% glosarios
+\input{./files/gbTeXglo-seminarioUBA.tex}
+
+\ifPDF
+% separata de capítulos solo en pdf de pantalla
+\input{./files/gbTeXseparata-seminarioUBA.tex}
+% control de inconsistencias de principio y fin de linea
+\usepackage[hyphenation,homeoarchy,homeoarchywordcolor=orange, homeoarchycharcolor=orange,draft]{impnattypo}
+\usepackage[allcolors=magenta, colorlinks, unicode]{hyperref}
+\usepackage{easyReview}
+\usepackage{hyperxmp}
+\input{./files/gbTeXmeta-seminarioUBA.tex}
+	\else
+	\ifBNPDF
+	\usepackage[width=18truecm,height=25.5truecm,cam,center]{crop}
+	\newcommand*\infofont[1]{\sf{\footnotesize #1 (alberto.alejandro.moyano@gmail.com)}}
+	\crop[font=infofont]
+	\usepackage[hidelinks, unicode]{hyperref}
+	\usepackage{hyperxmp}
+	\input{./files/gbTeXmeta-seminarioUBA.tex}
+		\else
+		\ifPNGEPUB
+		\usepackage[hidelinks, unicode]{hyperref}
+			\else
+			\ifHTMLEPUB
+			\usepackage[allcolors=blue,colorlinks,hyperindex=true,unicode]{hyperref}
+			\fi
+		\fi
+	\fi
+\fi
+
 
 \begin{document}
 \frontmatter
