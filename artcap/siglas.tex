@@ -1,5 +1,18 @@
-% colocamos el título en el sumario
-\addcontentsline{toc}{chapter}{\hspace{0pc}\acronymsname}
-
+\ifPDF
 % imprimimos el listado de siglas
-\printnoidxglossary[type=\acronymtype,title=\acronymsname]
+\printnoidxglossary[type=\acronymtype,title=Índice de siglas]
+
+% colocamos el título en el sumario
+\addcontentsline{toc}{chapter}{\hspace{0pc}Índice de siglas}
+
+
+\cleardoublepage
+	\else
+	\ifBNPDF
+	\cleardoublepage
+	\fi
+\fi
+
+\ifHTMLEPUB
+\printnoidxglossary[type=\acronymtype,title=Índice de siglas]
+\fi

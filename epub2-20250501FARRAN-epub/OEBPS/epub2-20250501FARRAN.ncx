@@ -29,143 +29,150 @@
     </navPoint>
     <navPoint id='navPoint-3' playOrder='3'>
       <navLabel>
+        <text>¿Por qué ontologías políticas?</text>
+      </navLabel>
+      <content src='epub2-20250501FARRANch3.html#x4-3000'>
+      </content>
+    </navPoint>
+    <navPoint id='navPoint-4' playOrder='4'>
+      <navLabel>
         <text>1 Emmanuel Biset Ontología de la diferencia</text>
       </navLabel>
-      <content src='epub2-20250501FARRANch3.html#x4-30001'>
+      <content src='epub2-20250501FARRANch4.html#x5-40001'>
       </content>
-      <navPoint id='navPoint-4' playOrder='4'>
-        <navLabel>
-          <text>1.1 Introducción</text>
-        </navLabel>
-        <content src='epub2-20250501FARRANch3.html#x4-40001.1'>
-        </content>
-      </navPoint>
-      <navPoint id='navPoint-5' playOrder='5'>
-        <navLabel>
-          <text>1.2 Dialéctica y diferencia</text>
-        </navLabel>
-        <content src='epub2-20250501FARRANch3.html#x4-50001.2'>
-        </content>
-      </navPoint>
+    </navPoint>
+    <navPoint id='navPoint-5' playOrder='5'>
+      <navLabel>
+        <text>2 Ontología de la diferencia</text>
+      </navLabel>
+      <content src='epub2-20250501FARRANch5.html#x6-50002'>
+      </content>
       <navPoint id='navPoint-6' playOrder='6'>
         <navLabel>
-          <text>1.3 La diferencia afirmativa: Gilles Deleuze</text>
+          <text>2.1 Introducción</text>
         </navLabel>
-        <content src='epub2-20250501FARRANch3.html#x4-60001.3'>
+        <content src='epub2-20250501FARRANch5.html#x6-60002.1'>
         </content>
       </navPoint>
       <navPoint id='navPoint-7' playOrder='7'>
         <navLabel>
-          <text>1.4 La diferencia negativa: Jacques Derrida</text>
+          <text>2.2 Dialéctica y diferencia</text>
         </navLabel>
-        <content src='epub2-20250501FARRANch3.html#x4-70001.4'>
+        <content src='epub2-20250501FARRANch5.html#x6-70002.2'>
         </content>
       </navPoint>
       <navPoint id='navPoint-8' playOrder='8'>
         <navLabel>
-          <text>1.5 Ontologías políticas de la diferencia</text>
+          <text>2.3 La diferencia afirmativa: Gilles Deleuze</text>
         </navLabel>
-        <content src='epub2-20250501FARRANch3.html#x4-80001.5'>
+        <content src='epub2-20250501FARRANch5.html#x6-80002.3'>
         </content>
       </navPoint>
       <navPoint id='navPoint-9' playOrder='9'>
         <navLabel>
-          <text>1.6 Aperturas</text>
+          <text>2.4 La diferencia negativa: Jacques Derrida</text>
         </navLabel>
-        <content src='epub2-20250501FARRANch3.html#x4-90001.6'>
+        <content src='epub2-20250501FARRANch5.html#x6-90002.4'>
         </content>
       </navPoint>
       <navPoint id='navPoint-10' playOrder='10'>
         <navLabel>
-          <text>Referencias</text>
+          <text>2.5 Ontologías políticas de la diferencia</text>
         </navLabel>
-        <content src='epub2-20250501FARRANch3.html#x4-10000'>
+        <content src='epub2-20250501FARRANch5.html#x6-100002.5'>
         </content>
       </navPoint>
-    </navPoint>
-    <navPoint id='navPoint-11' playOrder='11'>
-      <navLabel>
-        <text>2 Andrés Daín Ontología de la
-        sobredeterminación</text>
-      </navLabel>
-      <content src='epub2-20250501FARRANch4.html#x5-110002'>
-      </content>
+      <navPoint id='navPoint-11' playOrder='11'>
+        <navLabel>
+          <text>2.6 Aperturas</text>
+        </navLabel>
+        <content src='epub2-20250501FARRANch5.html#x6-110002.6'>
+        </content>
+      </navPoint>
       <navPoint id='navPoint-12' playOrder='12'>
         <navLabel>
-          <text>2.1 Introducción</text>
+          <text>Referencias</text>
         </navLabel>
-        <content src='epub2-20250501FARRANch4.html#x5-120002.1'>
+        <content src='epub2-20250501FARRANch5.html#x6-12000'>
         </content>
       </navPoint>
     </navPoint>
     <navPoint id='navPoint-13' playOrder='13'>
       <navLabel>
-        <text>Autores</text>
+        <text>3 Andrés Daín Ontología de la
+        sobredeterminación</text>
       </navLabel>
-      <content src='epub2-20250501FARRANch5.html#x6-13000'>
+      <content src='epub2-20250501FARRANch6.html#x7-130003'>
       </content>
-    </navPoint>
-    <navPoint id='navPoint-14' playOrder='14'>
-      <navLabel>
-        <text>Conclusiones</text>
-      </navLabel>
-      <content src='epub2-20250501FARRANch6.html#x7-23000'>
-      </content>
+      <navPoint id='navPoint-14' playOrder='14'>
+        <navLabel>
+          <text>3.1 Introducción</text>
+        </navLabel>
+        <content src='epub2-20250501FARRANch6.html#x7-140003.1'>
+        </content>
+      </navPoint>
     </navPoint>
     <navPoint id='navPoint-15' playOrder='15'>
       <navLabel>
+        <text>Autores</text>
+      </navLabel>
+      <content src='epub2-20250501FARRANch7.html#x8-15000'>
+      </content>
+    </navPoint>
+    <navPoint id='navPoint-16' playOrder='16'>
+      <navLabel>
+        <text>Conclusiones</text>
+      </navLabel>
+      <content src='epub2-20250501FARRANch8.html#x9-25000'>
+      </content>
+    </navPoint>
+    <navPoint id='navPoint-17' playOrder='17'>
+      <navLabel>
         <text>Notas</text>
       </navLabel>
-      <content src='epub2-20250501FARRANli1.html#x8-24000'>
+      <content src='epub2-20250501FARRANli1.html#x10-26000'>
       </content>
-      <navPoint id='navPoint-16' playOrder='16'>
+      <navPoint id='navPoint-18' playOrder='18'>
         <navLabel>
-          <text>1 Ontología de la diferencia</text>
+          <text>2 Ontología de la diferencia</text>
         </navLabel>
-        <content src='epub2-20250501FARRANli1.html#x8-25000'>
+        <content src='epub2-20250501FARRANli1.html#x10-27000'>
         </content>
       </navPoint>
-      <navPoint id='navPoint-17' playOrder='17'>
+      <navPoint id='navPoint-19' playOrder='19'>
         <navLabel>
           <text>Conclusiones</text>
         </navLabel>
-        <content src='epub2-20250501FARRANli1.html#x8-26000'>
+        <content src='epub2-20250501FARRANli1.html#x10-28000'>
         </content>
       </navPoint>
     </navPoint>
-    <navPoint id='navPoint-18' playOrder='18'>
-      <navLabel>
-        <text></text>
-      </navLabel>
-      <content src='epub2-20250501FARRANli1.html#Q1-8-29'>
-      </content>
-    </navPoint>
-    <navPoint id='navPoint-19' playOrder='19'>
-      <navLabel>
-        <text></text>
-      </navLabel>
-      <content src='epub2-20250501FARRANli2.html#x9-27000'>
-      </content>
-    </navPoint>
     <navPoint id='navPoint-20' playOrder='20'>
       <navLabel>
-        <text>Glosario de conceptos</text>
+        <text>Índice de siglas</text>
       </navLabel>
-      <content src='epub2-20250501FARRANli3.html#x10-28000'>
+      <content src='epub2-20250501FARRANli2.html#x11-29000'>
       </content>
     </navPoint>
     <navPoint id='navPoint-21' playOrder='21'>
       <navLabel>
-        <text>Referencias</text>
+        <text>Glosario de conceptos</text>
       </navLabel>
-      <content src='epub2-20250501FARRANli4.html#x11-29000'>
+      <content src='epub2-20250501FARRANli3.html#x12-30000'>
       </content>
     </navPoint>
     <navPoint id='navPoint-22' playOrder='22'>
       <navLabel>
+        <text>Referencias</text>
+      </navLabel>
+      <content src='epub2-20250501FARRANli4.html#x13-31000'>
+      </content>
+    </navPoint>
+    <navPoint id='navPoint-23' playOrder='23'>
+      <navLabel>
         <text>Colofón</text>
       </navLabel>
-      <content src='epub2-20250501FARRANli5.html#x12-30000'>
+      <content src='epub2-20250501FARRANli5.html#x14-32000'>
       </content>
     </navPoint>
   </navMap>
