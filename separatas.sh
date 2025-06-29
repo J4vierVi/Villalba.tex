@@ -1,8 +1,13 @@
 #!/bin/bash
-pdftk ./pdf/pdf-20250501FARRAN.pdf cat 9-9 output ./docs/presentacion-pdf-20250501FARRAN.pdf
-pdftk ./pdf/pdf-20250501FARRAN.pdf cat 11-18 output ./docs/¿Por qué ontologías políticas-pdf-20250501FARRAN.pdf
-pdftk ./pdf/pdf-20250501FARRAN.pdf cat 19-59 output ./docs/Ontología de la diferencia-pdf-20250501FARRAN.pdf
-pdftk ./pdf/pdf-20250501FARRAN.pdf cat 63-64 output ./docs/Autores-pdf-20250501FARRAN.pdf
-pdftk ./pdf/pdf-20250501FARRAN.pdf cat 65-67 output ./docs/conclusiones-pdf-20250501FARRAN.pdf
-pdftk ./pdf/pdf-20250501FARRAN.pdf cat 68-78 output ./docs/indices-pdf-20250501FARRAN.pdf
+pdftk ./pdf/20250501FARRAN.pdf cat 0- output ./docs/presentacion-20250501FARRAN.pdf
+pdftk ./pdf/20250501FARRAN.pdf cat 0- output ./docs/presentacion-20250501FARRAN.pdf
+pdftk ./pdf/20250501FARRAN.pdf cat 0- output ./docs/¿Por qué ontologías políticas-20250501FARRAN.pdf
+pdftk ./pdf/20250501FARRAN.pdf cat 0- output ./docs/¿Por qué ontologías políticas-20250501FARRAN.pdf
+pdftk ./pdf/20250501FARRAN.pdf cat 0- output ./docs/Ontología de la diferencia-20250501FARRAN.pdf
+pdftk ./pdf/20250501FARRAN.pdf cat 0- output ./docs/Ontología de la diferencia-20250501FARRAN.pdf
+pdftk ./pdf/20250501FARRAN.pdf cat 0- output ./docs/Autores-20250501FARRAN.pdf
+pdftk ./pdf/20250501FARRAN.pdf cat 0- output ./docs/Autores-20250501FARRAN.pdf
+pdftk ./pdf/20250501FARRAN.pdf cat 0- output ./docs/conclusiones-20250501FARRAN.pdf
+pdftk ./pdf/20250501FARRAN.pdf cat 0- output ./docs/conclusiones-20250501FARRAN.pdf
+pdftk ./pdf/20250501FARRAN.pdf cat 0- output ./docs/indices-20250501FARRAN.pdf
 exit

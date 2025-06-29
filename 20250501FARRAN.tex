@@ -27,6 +27,13 @@
 			\else
 			\ifHTMLEPUB
 			\usepackage[allcolors=blue,colorlinks,hyperindex=true,unicode]{hyperref}
+			% prueba para solucionar error con los epígrafes
+			% Definiciones compatibles con EPUB
+			\providecommand{\epigraph}[2]{%
+				\begin{quote}\emph{#1}\par\hfill--- #2\end{quote}%
+			}
+			\providecommand{\enquote}[1]{``#1''}
+			\providecommand{\rdm}[1]{#1}
 			\fi
 		\fi
 	\fi
@@ -74,12 +81,12 @@
 
 \include{./artcap/capitulo01.tex}
 
-\chapter[\textbf{Andrés Daín}\\ Ontología de la sobredeterminación]{Ontología de la sobredeterminación} % en este tipo de diseño donde lo que está entre corchetes es lo que va aparecer en el índice y lo que está entre llaves es lo que va aparecer en la página del capítulo, sí corresponde usar el chaptermark
-\Author{Andrés Daín}
-\chaptermark{Ontología de la sobredeterminación}
-\nombreautor{Andrés Daín}
-
-\section{Introducción}
+%\chapter[\textbf{Andrés Daín}\\ Ontología de la sobredeterminación]{Ontología de la sobredeterminación} % en este tipo de diseño donde lo que está entre corchetes es lo que va aparecer en el índice y lo que está entre llaves es lo que va aparecer en la página del capítulo, sí corresponde usar el chaptermark
+%\Author{Andrés Daín}
+%\chaptermark{Ontología de la sobredeterminación}
+%\nombreautor{Andrés Daín}
+%
+%\section{Introducción}
 %
 %En el presente capítulo nos proponemos avanzar en la elaboración de una ontología política que se haga eco de las principales implicancias del pensamiento político posfundacionalista y que esté orientada a poner en tensión el encorsetamiento impuesto al análisis político por parte de la ciencia política canónica. Una ontología que dé cuenta de una aproximación antiesencialista a los procesos de creación y fijación de sentido, al tiempo que asuma el carácter constitutivamente abierto de toda identidad. A la vez que también evidencie la relativa estructuralidad que actúa como superficie de inscripción de toda significación, su carácter intrínsecamente fallido y su condición de estar hegemónicamente suturada. Una ontología de la significación que cuestione toda parcelización teórica que actúe como legitimadora de la delimitación de un campo de objetos y prácticas denominadas \emph{a priori} como \emph{políticos} y así nos permita pensar más al análisis político como un \emph{modo de ve}r que como un \emph{qué ver}. En definitiva, una ontología que nos posibilite avanzar en la conformación de un nuevo campo de intervención politológica a partir de una concepción del modo en que se crean las estructuras socialmente significativas; o sea, una ontología que legitime al análisis político para dar cuenta de las operaciones ideológicas que definen los objetos y las prácticas sociales, sean o no definidas por las gramáticas tradicionales como \emph{políticas}. En conclusión, una ontología de la sobredeterminación.
 %
@@ -1165,7 +1172,6 @@
 %\input{./artcap/conceptos.tex}
 %\input{./artcap/onomastico.tex}
 \input{./artcap/glosario.tex}% de conceptos
-
 %\printbibliography[title=Referencias]
 \fi
 
