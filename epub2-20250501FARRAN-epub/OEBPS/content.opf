@@ -8,7 +8,7 @@ xmlns='http://www.idpf.org/2007/opf'>
     <dc:identifier id='dcidid' opf:scheme='URI'>
     http://example.com/epub2-20250501FARRAN</dc:identifier>
     <dc:creator>Villalba, Javier A:</dc:creator>
-    <dc:date>2025-06-29T03:19:00Z</dc:date>
+    <dc:date>2025-06-29T13:00:00Z</dc:date>
     <dc:subject>-</dc:subject>
     <dc:date>-</dc:date>
     <dc:created></dc:created>
@@ -19,7 +19,7 @@ xmlns='http://www.idpf.org/2007/opf'>
     ISBN:978-950-794-469-3</dc:identifier>
     <dc:identifier id='url' opf:scheme='URL'>-</dc:identifier>
     <dc:identifier id='uuid' opf:scheme='uuid'>
-    urn:uuid:gbTeXpublisher-29junio2025-03:17:06</dc:identifier>
+    urn:uuid:gbTeXpublisher-29junio2025-12:58:50</dc:identifier>
     <dc:format>EPUB</dc:format>
     <meta content='cover-image' name='cover' />
   </metadata>
@@ -49,8 +49,6 @@ xmlns='http://www.idpf.org/2007/opf'>
     <item href='epub2-20250501FARRANli3.html' id='file10'
     media-type='application/xhtml+xml'></item>
     <item href='epub2-20250501FARRANli4.html' id='file11'
-    media-type='application/xhtml+xml'></item>
-    <item href='epub2-20250501FARRANli5.html' id='file12'
     media-type='application/xhtml+xml'></item>
     <item href='./tapa/cover.png' id='cover-image'
     media-type='image/png'></item>
@@ -101,6 +99,5 @@ xmlns='http://www.idpf.org/2007/opf'>
     <itemref idref='file9'></itemref>
     <itemref idref='file10'></itemref>
     <itemref idref='file11'></itemref>
-    <itemref idref='file12'></itemref>
   </spine>
 </package>

@@ -149,16 +149,9 @@
     </navPoint>
     <navPoint id='navPoint-20' playOrder='20'>
       <navLabel>
-        <text>Referencias</text>
-      </navLabel>
-      <content src='epub2-20250501FARRANli4.html#x11-29000'>
-      </content>
-    </navPoint>
-    <navPoint id='navPoint-21' playOrder='21'>
-      <navLabel>
         <text>Colofón</text>
       </navLabel>
-      <content src='epub2-20250501FARRANli5.html#x12-30000'>
+      <content src='epub2-20250501FARRANli4.html#x11-29000'>
       </content>
     </navPoint>
   </navMap>
