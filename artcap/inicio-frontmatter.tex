@@ -1,12 +1,12 @@
-% página 1
-\newpage
-\thispagestyle{empty}
-{\textcolor{white}{.}}
-
-% página 2
-\newpage
-\thispagestyle{empty}
-{\textcolor{white}{.}}
+\ifPDF
+\PaginaEnBlanco
+\PaginaEnBlanco
+	\else
+	\ifBNPDF
+	\PaginaEnBlanco
+	\PaginaEnBlanco
+	\fi
+\fi
 
 % página 3
 \newpage
