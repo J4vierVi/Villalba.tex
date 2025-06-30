@@ -5,8 +5,13 @@
 \sectionmark{ } % Para evitar que "Sumario" siga apareciendo
 \setcounter{PrimPag}{\theCurrentPage}
 	\else
-	\ifHTMLEPUB
-	\chapter{Conclusiones}
+	\ifBNPDF
+	\chapter[Conclusiones]{Conclusiones}
+	\Author{Conclusiones}
+		\else
+		\ifHTMLEPUB
+		\chapter{Conclusiones}
+		\fi
 	\fi
 \fi
 

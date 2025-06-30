@@ -2,13 +2,26 @@
 \chapter[¿Por qué ontologías políticas?]{¿Por qué ontologías políticas?}
 \chaptermark{¿Por qué ontologías políticas?}
 \Author{Gala Aznarez Carin et al.} % para el encabezado decidí, dado que son mucho autores, colocar al primero seguido de la expresión "et al".
-\nombreautor{\begin{center} % acá decidí colocar a todos los autores firmantes y darle un centrardo
-		Gala Aznarez Carini, Emmanuel Biset, Andrés Daín, Roque Farrán, Daniel Groisman, Manuel Moyano, Juan Manuel Reynares, Aurora Romero, Mercedes Vargas
-\end{center}}
+	% encabezado para autor
+	\begin{center}
+		\nombreautor{Gala Aznarez Carini, Emmanuel Biset, Andrés Daín, Roque Farrán, Daniel Groisman, Manuel Moyano, Juan Manuel Reynares, Aurora Romero, Mercedes Vargas}\\[1ex]
+		\makebox[2pc]{\dotfill}
+	\end{center} % acá decidí colocar a todos los autores firmantes y darle un centrado
 \setcounter{PrimPag}{\theCurrentPage}
 	\else
-	\ifHTMLEPUB
-	\chapter{¿Por qué ontologías políticas}
+	\ifBNPDF
+	\chapter[¿Por qué ontologías políticas?]{¿Por qué ontologías políticas?}
+	\chaptermark{¿Por qué ontologías políticas?}
+	\Author{Gala Aznarez Carin et al.} % para el encabezado decidí, dado que son mucho autores, colocar al primero seguido de la expresión "et al".
+		% encabezado para autor
+		\begin{center}
+			\nombreautor{Gala Aznarez Carini, Emmanuel Biset, Andrés Daín, Roque Farrán, Daniel Groisman, Manuel Moyano, Juan Manuel Reynares, Aurora Romero, Mercedes Vargas}\\[1ex]
+			\makebox[2pc]{\dotfill}
+		\end{center} % acá decidí colocar a todos los autores firmantes y darle un centrado
+		\else
+		\ifHTMLEPUB
+		\chapter{¿Por qué ontologías políticas}
+		\fi
 	\fi
 \fi
 

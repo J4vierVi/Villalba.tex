@@ -3,8 +3,13 @@
 \Author{Autores}
 \setcounter{PrimPag}{\theCurrentPage}
 	\else
-	\ifHTMLEPUB
-	\chapter{Autores}
+	\ifBNPDF
+	\chapter[Autores]{Autores}
+	\Author{Autores}
+		\else
+		\ifHTMLEPUB
+		\chapter{Autores}
+		\fi
 	\fi
 \fi
 

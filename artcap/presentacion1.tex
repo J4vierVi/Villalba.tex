@@ -3,15 +3,15 @@
 \chaptermark{Presentación} % Esta línea es necesaria
 \Author{Presentación}
 \setcounter{PrimPag}{\theCurrentPage}
-
-% encabezado para autor
-%\begin{center}
-%	\nombreautor{Presentación}\\
-%	\vspace{20mm}
-%\end{center}
 	\else
-	\ifHTMLEPUB
-	\chapter{Presentación}
+	\ifBNPDF
+	\chapter[\hspace{0pc}Presentación]{Presentación} % el marcado "\hspace{0pc}" lo dejé intencionalmente solo para recordar la manera en que puedo controlar la posición de las entradas.
+	\chaptermark{Presentación} % Esta línea es necesaria
+	\Author{Presentación}
+		\else
+		\ifHTMLEPUB
+		\chapter{Presentación}
+		\fi
 	\fi
 \fi
 
