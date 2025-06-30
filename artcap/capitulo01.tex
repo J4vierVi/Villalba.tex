@@ -6,14 +6,24 @@
 \begin{center}
 	\nombreautor{Emmanuel Biset} \\[1ex]
 	\makebox[2pc]{\dotfill}
-	\end{center}
+\end{center}
 \setcounter{PrimPag}{\theCurrentPage}
 	\else
-	\ifHTMLEPUB
-	\chapter{Ontología de la diferencia}
+	\ifBNPDF
+	\chapter[\textbf{Emmanuel Biset}\\ Ontología de la diferencia]{Ontología de la diferencia}
+	\Author{Emmanuel Biset}
+	\chaptermark{Ontología de la diferencia}
+	% encabezado para autor
+	\begin{center}
+		\nombreautor{Emmanuel Biset}\\
+		\vspace{15mm}
+	\end{center}
+		\else
+		\ifHTMLEPUB
+		\chapter{Ontología de la diferencia}
+		\fi
 	\fi
 \fi
-
 
 \epigraph{\emph{\enquote{La diferencia entre Deleuze y Derrida como diferencia propia \rdm{y en consecuencia, como identidad en sí dividida} de un tiempo, de un presente de pensamiento que habrá formado una inflexión decisiva, sigue estando por pensar}.}}{Jean-Luc Nancy}
 
